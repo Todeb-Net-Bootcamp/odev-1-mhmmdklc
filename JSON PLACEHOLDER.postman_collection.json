@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "GET Request",
+			"name": "GET Request",  // Bu methot ile dataları getiriyoruz
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -27,7 +27,7 @@
 			"response": []
 		},
 		{
-			"name": "GET(ById) Request",
+			"name": "GET(ById) Request", // Bu methot ile Idsini girdiğimiz dataları getiriyoruz
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -48,7 +48,7 @@
 			"response": []
 		},
 		{
-			"name": "GET(ByIdComments) Request",
+			"name": "GET(ByIdComments) Request",  
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -70,7 +70,7 @@
 			"response": []
 		},
 		{
-			"name": "GET(ByPostId) Request",
+			"name": "GET(ByPostId) Request", // Bu methot ile postIdsini girdiğimiz dataları getiriyoruz
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -98,7 +98,7 @@
 		{
 			"name": "POST Request",
 			"request": {
-				"method": "POST",
+				"method": "POST",  // Bu methot ile yeni database'e yeni data eklemesi yapıyoruz.
 				"header": [],
 				"body": {
 					"mode": "urlencoded",
@@ -136,7 +136,7 @@
 			"response": []
 		},
 		{
-			"name": "PUT Request",
+			"name": "PUT Request", // Bu methot ile varolan datayı değiştiriyoruz.
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -177,7 +177,7 @@
 			"response": []
 		},
 		{
-			"name": "PATCH Request",
+			"name": "PATCH Request",  // Bu methot ile varolan datanın bir kısmını değiştiriyoruz.
 			"request": {
 				"method": "PATCH",
 				"header": [],
@@ -218,7 +218,7 @@
 			"response": []
 		},
 		{
-			"name": "DELETE Request",
+			"name": "DELETE Request", // Bu methot ile varolan datayı siliyoruz.
 			"request": {
 				"method": "DELETE",
 				"header": [],
