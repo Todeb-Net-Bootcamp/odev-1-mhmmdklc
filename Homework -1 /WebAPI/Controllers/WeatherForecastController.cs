@@ -11,7 +11,7 @@ namespace WebAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private static readonly string[] Summaries = new[] // database olarak string bir array kullanıyoruz.
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet] // Endpoint
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
