@@ -24,6 +24,7 @@ namespace WebAPI
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        // Bu metot aracılığı ile uygulamamızın içerisinde kullanacağımız bileşenlerin ayarlarını yapabiliriz. 
         public void ConfigureServices(IServiceCollection services)
         {
 
@@ -35,7 +36,8 @@ namespace WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        //  Bu metot uygulamamıza gelen HTTP isteklerini hangi aşamalardan geçirerek bir HTTP cevabı oluşturacağımızı belirttiğimiz metottur. 
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env) 
         {
             if (env.IsDevelopment())
             {
