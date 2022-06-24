@@ -13,7 +13,7 @@ terminal codes for VS CODE
 
 "dotnet new sln -n WebAPI"
 
-* for link beetwen and webapi
+* for link beetwen solution and webapi
 
 "Dotnet sln add WebAPI"
 
