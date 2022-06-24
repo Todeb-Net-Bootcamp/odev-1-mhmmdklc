@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet] // Endpoint
+        [HttpGet] // Endpoint, dataları getirmek için bu methodu kullanıyoruz.
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();
